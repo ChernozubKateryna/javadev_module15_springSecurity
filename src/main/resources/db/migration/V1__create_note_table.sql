@@ -1,0 +1,5 @@
+CREATE TABLE note (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    title VARCHAR(500),
+    content VARCHAR(2000)
+)
